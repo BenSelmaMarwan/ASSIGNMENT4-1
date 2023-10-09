@@ -1,3 +1,4 @@
+
 exports.up = function (knex) {
     return knex.schema.createTable('members', function (table) {
         table.increments('id').primary();

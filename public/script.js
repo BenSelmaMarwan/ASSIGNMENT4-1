@@ -49,6 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+   
     // Update endpoint for members
     updateMemberForm.addEventListener('submit', async (e) => {
         e.preventDefault();

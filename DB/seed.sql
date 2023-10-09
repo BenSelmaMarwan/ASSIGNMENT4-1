@@ -8,6 +8,7 @@ INSERT INTO trainers (first_name, last_name, specialization) VALUES
     ('Michael', 'Johnson', 'Cardio'),
     ('Sarah', 'Williams', 'Strength Training');
 
+
 -- Insert sample data into the classes table
 INSERT INTO classes (name, schedule_time, trainer_id) VALUES
     ('Yoga', '10:00 AM', 1),

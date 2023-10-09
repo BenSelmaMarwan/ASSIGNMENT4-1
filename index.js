@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3100; // Use the environment variable or port 3500
 
+
 //const knex = require('./db/knexfile.js'); 
 // Import the knexfile and knex instance
 const knexfile = require('./DB/Knexfile');
