@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Database</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Import the Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Wix+Madefor+Display:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Gym Database App</h1>
+    
+    <h2>Create a New Member</h2>
+    <form id="createMemberForm">
+        <input type="text" id="firstName" placeholder="First Name">
+        <input type="text" id="lastName" placeholder="Last Name">
+        <input type="text" id="email" placeholder="Email">
+        <input type="date" id="joinDate" placeholder="Join Date">
+        <button type="submit">Create</button>
+    </form>
+    
+    <h2>Update a Member</h2>
+    <form id="updateMemberForm">
+        <input type="text" id="memberIdToUpdate" placeholder="Member ID to Update">
+        <input type="text" id="updatedFirstName" placeholder="Updated First Name">
+        <input type="text" id="updatedLastName" placeholder="Updated Last Name">
+        <input type="text" id="updatedEmail" placeholder="Updated Email">
+        <input type="date" id="updatedJoinDate" placeholder="Updated Join Date">
+        <button type="submit">Update</button>
+    </form>
+    
+    <h2>Delete a Member</h2>
+    <form id="deleteMemberForm">
+        <input type="text" id="memberIdToDelete" placeholder="Member ID to Delete">
+        <button type="submit">Delete</button>
+    </form>
+
+    <h2>Search Members by Email</h2>
+    <form id="searchMemberForm">
+        <input type="text" id="emailToSearch" placeholder="Email to Search">
+        <button type="submit">Search</button>
+    </form>
+
+    <ul id="memberList">
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
