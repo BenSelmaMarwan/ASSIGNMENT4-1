@@ -8,6 +8,7 @@ module.exports = {
       password: 'Marwan.01',
       database: 'gym_management',
     },
+    
     migrations: {
       directory: __dirname + './DB/migrations',
     },
