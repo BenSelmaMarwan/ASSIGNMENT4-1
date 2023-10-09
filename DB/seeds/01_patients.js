@@ -13,6 +13,7 @@ exports.seed = function (knex) {
             join_date: '2023-01-15',
           },
           
+          
           {
             first_name: 'Alice',
             last_name: 'Smith',

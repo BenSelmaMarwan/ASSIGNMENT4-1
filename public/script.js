@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const memberList = document.getElementById('memberList');
 
     
+    
     // Event listener for creating a new member
     createMemberForm.addEventListener('submit', async (e) => {
         e.preventDefault();

@@ -9,6 +9,7 @@ module.exports = {
       database: 'gym_management',
     },
     
+    
     migrations: {
       directory: __dirname + './DB/migrations',
     },

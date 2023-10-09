@@ -16,6 +16,7 @@ app.use(express.static('public'));
 
 
 
+
 // Create a new member
 app.post('/members', async (req, res) => {
     try {

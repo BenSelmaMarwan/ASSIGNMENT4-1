@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS members (
 
 
 
+
 -- Create a table for gym trainers
 CREATE TABLE IF NOT EXISTS trainers (
     id SERIAL PRIMARY KEY,
