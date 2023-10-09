@@ -13,7 +13,6 @@ JOIN payments ON members.id = payments.member_id
 GROUP BY members.id;
 
 
-
 -- Find classes scheduled for a specific time and their trainers
 SELECT classes.name, trainers.first_name AS trainer_first_name, trainers.last_name AS trainer_last_name
 FROM classes
